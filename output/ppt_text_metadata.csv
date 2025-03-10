@@ -1,0 +1,139 @@
+Page,Text,Font Name,Font Size,Is Heading,Text Type
+1,28/02/2025,Times New Roman,12.0,Yes,Normal
+1,"Batch B10 (21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+1,Indian Institute of Information Technology Una,Times New Roman,32.0,Yes,Normal
+1,Topic - PowerRef,Times New Roman,24.0,Yes,Normal
+1,Review - 1 ,Times New Roman,24.0,Yes,Normal
+1,Project Phase - III (CSL801),Times New Roman,24.0,Yes,Normal
+1,Presented by:,Times New Roman,20.0,Yes,Normal
+1,        Divyank Sharma                      Harshit Kumar                      Kanhaiya Gupta,Times New Roman,18.0,Yes,Normal
+1,               21119			   21121			 21125,Times New Roman,18.0,Yes,Normal
+1,       	 Under Supervision of -  Ms. Nisha,Times New Roman,18.0,Yes,Normal
+1,1,Default,0.0,No,Text
+2,Outline ,Times New Roman,44.0,Yes,Title
+2,28/02/2025,Times New Roman,12.0,Yes,Normal
+2,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+2,<number>,Default,0.0,No,Text
+2,INTRODUCTION,Times New Roman,18.0,Yes,Normal
+2,MOTIVATION,Times New Roman,18.0,Yes,Normal
+2,PROJECT OBJECTIVE,Times New Roman,18.0,Yes,Normal
+2,01,Times New Roman,28.0,Yes,Normal
+2,02,Times New Roman,28.0,Yes,Normal
+2,03,Times New Roman,28.0,Yes,Normal
+2,04,Times New Roman,28.0,Yes,Normal
+2,INNOVATION IN THE PROJECT,Times New Roman,18.0,Yes,Normal
+2,05,Times New Roman,28.0,Yes,Normal
+2,CURRENTLY AVAILABLE,Times New Roman,18.0,Yes,Normal
+2, SOLUTIONS,Times New Roman,18.0,Yes,Normal
+2,06,Times New Roman,28.0,Yes,Normal
+2,BLOCK SCHEMATIC,Times New Roman,18.0,Yes,Normal
+2,07,Times New Roman,28.0,Yes,Normal
+2,WORK PROGRESS,Times New Roman,18.0,Yes,Normal
+3,28/02/2025,Times New Roman,12.0,Yes,Normal
+3,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+3,<number>,Default,0.0,No,Text
+3, INTRODUCTION,Times New Roman,24.0,Yes,Normal
+3,01,Times New Roman,28.0,Yes,Normal
+4, 1.  INTRODUCTION,Times New Roman,44.0,Yes,Title
+4,10/03/2025,Default,0.0,No,Normal
+4,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+4,<number>,Default,0.0,No,Text
+4,Android App to improve job application success with personalized referral suggestions.,Times New Roman,24.0,Yes,Normal
+4,Uses web scraping and algorithms to recommend the most effective referrals.,Times New Roman,24.0,Yes,Normal
+4,"Focuses on strategic referrals, offering a unique approach.",Times New Roman,24.0,Yes,Normal
+4,"Includes tools such as a resume builder, company search, and referral.",Times New Roman,24.0,Yes,Normal
+4,Interview Preparation via MCQs,Times New Roman,24.0,Yes,Normal
+5,10/03/2025,Default,0.0,No,Normal
+5,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+5,<number>,Default,0.0,No,Text
+5,MOTIVATION,Times New Roman,24.0,Yes,Normal
+5,02,Times New Roman,28.0,Yes,Normal
+6, 2.  MOTIVATION,Times New Roman,44.0,Yes,Title
+6,10/03/2025,Default,0.0,No,Normal
+6,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+6,<number>,Default,0.0,No,Text
+6,Help job seekers stand out in a competitive job market.,Times New Roman,24.0,Yes,Normal
+6,Simplify the process of finding the most impactful referrals.,Times New Roman,24.0,Yes,Normal
+6,Increase the chances of getting noticed by recruiters.,Times New Roman,24.0,Yes,Normal
+7,10/03/2025,Default,0.0,No,Normal
+7,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+7,<number>,Default,0.0,No,Text
+7,PROJECT OBJECTIVE,Times New Roman,24.0,Yes,Normal
+7,03,Times New Roman,28.0,Yes,Normal
+8, 3.  PROJECT OBJECTIVE,Times New Roman,44.0,Yes,Title
+8,10/03/2025,Default,0.0,No,Normal
+8,"Batch 1 (21317,21319,21324)",Times New Roman,12.0,Yes,Normal
+8,<number>,Default,0.0,No,Text
+8,Provide personalized referral suggestions .,Times New Roman,24.0,Yes,Normal
+8,Increase job success rates using recommendation algorithms.,Times New Roman,24.0,Yes,Normal
+8,Ensure secure management and storage of user data.,Times New Roman,24.0,Yes,Normal
+8,Enable LinkedIn sign-in to simplify user onboarding.,Times New Roman,24.0,Yes,Normal
+8,Offer a dashboard for managing referral activities.,Times New Roman,24.0,Yes,Normal
+9,10/03/2025,Default,0.0,No,Normal
+9,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+9,<number>,Default,0.0,No,Text
+9,INNOVATION IN THE PROJECT,Times New Roman,24.0,Yes,Normal
+9,04,Times New Roman,28.0,Yes,Normal
+10, 4.  INNOVATION IN THE PROJECT,Times New Roman,44.0,Yes,Title
+10,10/03/2025,Default,0.0,No,Normal
+10,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+10,10,Default,0.0,No,Text
+10,Leverages web scraping to gather data for accurate referral suggestions.,Times New Roman,20.0,Yes,Normal
+10,Integrates LinkedIn sign-in for automatic data import.,Times New Roman,20.0,Yes,Normal
+10,"Combines multiple job-seeking tools (referral manager, resume builder, company search, interview preparation) in one app.",Times New Roman,20.0,Yes,Normal
+10,"Focuses specifically on strategic referrals, setting it apart from generic networking platforms.",Times New Roman,20.0,Yes,Normal
+11,10/03/2025,Default,0.0,No,Normal
+11,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+11,10,Default,0.0,No,Text
+11, CURRENTLY AVAILABLE SOLUTIONS,Times New Roman,24.0,Yes,Normal
+11,05,Times New Roman,28.0,Yes,Normal
+12, 5. CURRENTLY AVAILABLE SOLUTIONS,Times New Roman,44.0,Yes,Title
+12,10/03/2025,Default,0.0,No,Normal
+12,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+12,12,Default,0.0,No,Text
+13,10/03/2025,Default,0.0,No,Normal
+13,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+13,12,Default,0.0,No,Text
+13, BLOCK SCHEMATIC,Times New Roman,24.0,Yes,Normal
+13,06,Times New Roman,28.0,Yes,Normal
+14,10/03/2025,Default,0.0,No,Normal
+14,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+14,12,Default,0.0,No,Text
+14,  WORK PROGRESS ,Times New Roman,24.0,Yes,Normal
+14,06,Times New Roman,28.0,Yes,Normal
+15, 6.  WORK PROGRESS,Times New Roman,44.0,Yes,Title
+15,10/03/2025,Default,0.0,No,Normal
+15,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+15,15,Default,0.0,No,Text
+15,Frontend Development: 70% completed.,Times New Roman,24.0,Yes,Normal
+15,Backend Development: Initiated and currently in progress.,Times New Roman,24.0,Yes,Normal
+15,Data Scraping: Successfully completed from the Peerlist website.,Times New Roman,24.0,Yes,Normal
+15,Algorithm Optimization: Implementation of RAG for optimized referral recommendations has begun.,Times New Roman,24.0,Yes,Normal
+16, 7. Demonstration,Times New Roman,44.0,Yes,Title
+16,10/03/2025,Default,0.0,No,Normal
+16,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+16,16,Default,0.0,No,Text
+17,7. Demonstration,Calibri,44.0,Yes,Title
+17,IIITU-HP-India-<Event Identifier> ,Default,0.0,No,Normal
+17,17,Default,0.0,No,Text
+17,10/03/2025,Default,0.0,No,Normal
+18,Demonstration,Calibri,44.0,Yes,Title
+18,IIITU-HP-India-<Event Identifier> ,Default,0.0,No,Normal
+18,18,Default,0.0,No,Text
+18,10/03/2025,Default,0.0,No,Normal
+19,Demonstration,Calibri,44.0,Yes,Title
+19,IIITU-HP-India-<Event Identifier> ,Default,0.0,No,Normal
+19,19,Default,0.0,No,Text
+19,10/03/2025,Default,0.0,No,Normal
+20,  REFRENCES,Times New Roman,44.0,Yes,Title
+20,10/03/2025,Default,0.0,No,Normal
+20,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+20,20,Default,0.0,No,Text
+20, Android Developer Documentation. URL: https://developer.android.com/,Times New Roman,24.0,Yes,Normal
+20, Node.js. URL: https://nodejs.org/,Times New Roman,24.0,Yes,Normal
+20,Stack Overflow. URL: https://stackoverflow.com/,Times New Roman,24.0,Yes,Normal
+20,Figma. URL: Figma,Times New Roman,24.0,Yes,Normal
+21,10/03/2025,Default,0.0,No,Normal
+21,"Batch B10(21119,21121,21125)",Times New Roman,12.0,Yes,Normal
+21,<number>,Default,0.0,No,Text
+21,Thanks!,Times New Roman,44.0,Yes,Title

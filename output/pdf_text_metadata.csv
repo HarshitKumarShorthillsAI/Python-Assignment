@@ -1,0 +1,314 @@
+Page,Text,Font Name,Font Size,Is Heading,Text Type
+1,1,Calibri,11.039999961853027,No,Normal
+1,Date: 28-02-2025,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+1,Review I,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+1,Project Phase – III(CSL801),TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+1,Students Name,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Divyank Sharma,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+1,Harshit Kumar,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+1,Kanhaiya Kumar Gupta,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+1,Roll No.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,21119,TimesNewRomanPSMT,12.0,No,Underlined
+1,21121,TimesNewRomanPSMT,12.0,No,Underlined
+1,21125,TimesNewRomanPSMT,12.0,No,Underlined
+1,Batch No.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,B10,TimesNewRomanPSMT,12.0,No,Underlined
+1,Semester,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,VIII,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+1,Branch,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Computer Science &,TimesNewRomanPSMT,12.0,No,Underlined
+1,Engineering,TimesNewRomanPSMT,12.0,No,Underlined
+1,Supervisor,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Mrs. Nisha,TimesNewRomanPSMT,12.0,No,Underlined
+1,1.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Title of the Project,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,– PowerRef : Application for Recommending Job Referrals,TimesNewRomanPSMT,12.0,No,Underlined
+1,2.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Introduction :,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,"In the competitive job market, having the right referral can significantly boost a candidate's",TimesNewRomanPSMT,12.0,No,Underlined
+1,"chances of success. However, identifying the most impactful referral is often challenging.",TimesNewRomanPSMT,12.0,No,Underlined
+1,This app addresses this issue by recommending the strongest referral based on the user's,TimesNewRomanPSMT,12.0,No,Underlined
+1,target company and job role. It uses web scraping and a recommendation algorithm to,TimesNewRomanPSMT,12.0,No,Underlined
+1,analyze and suggest optimal referral opportunities.,TimesNewRomanPSMT,12.0,No,Underlined
+1,"In addition to this, the app offers tools like a resume builder, company search, and a",TimesNewRomanPSMT,12.0,No,Underlined
+1,"dashboard for managing and tracking referrals. Unlike general networking platforms, it",TimesNewRomanPSMT,12.0,No,Underlined
+1,focuses specifically on enhancing job application outcomes through strategic referrals.,TimesNewRomanPSMT,12.0,No,Underlined
+1,3.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Problem Definition:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,Job seekers often struggle to identify and leverage the most effective referrals for their job,TimesNewRomanPSMT,12.0,No,Underlined
+1,applications. Platforms like,TimesNewRomanPSMT,12.0,No,Underlined
+1,LinkedIn,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,and,TimesNewRomanPSMT,12.0,No,Underlined
+1,Top mate,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,provide general networking tools but,TimesNewRomanPSMT,12.0,No,Underlined
+1,lack specialized features that can prioritize referrals based on relevant criteria such as,TimesNewRomanPSMT,12.0,No,Underlined
+1,"alumni connections, experience, and position within a company. This concern reduces a",TimesNewRomanPSMT,12.0,No,Underlined
+1,candidate’s chances of standing out to recruiters and gaining an advantage in the hiring,TimesNewRomanPSMT,12.0,No,Underlined
+1,"process. Additionally, these existing platforms do not offer integrated tools like a",TimesNewRomanPSMT,12.0,No,Underlined
+1,resume,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,builder,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+1,", which forces users to rely on external solutions, adding unnecessary complexity",TimesNewRomanPSMT,12.0,No,Underlined
+1,to their job search process. These platforms limit users' ability to fully optimize their job,TimesNewRomanPSMT,12.0,No,Underlined
+1,applications and making the process less efficient by not offering prioritized referral sug-,TimesNewRomanPSMT,12.0,No,Underlined
+1,gestions and a built-in resume-building feature.,TimesNewRomanPSMT,12.0,No,Underlined
+1,"So, this project aims to develop an application that guides user to choose the strongest",TimesNewRomanPSMT,12.0,No,Underlined
+1,referral based on their target company and position by using recommendation algorithm.,TimesNewRomanPSMT,12.0,No,Underlined
+1,Indian Institute of Information Technology Una,TimesNewRomanPS-BoldMT,15.0,Yes,Heading
+1,Himachal Pradesh,TimesNewRomanPS-BoldMT,15.0,Yes,Heading
+1,An Institute of National Importance under MoE,TimesNewRomanPSMT,12.0,No,Underlined
+1,"Saloh, Una - 177209",TimesNewRomanPS-BoldMT,12.960000038146973,No,Underlined
+1,Website: www.iiitu.ac.in,TimesNewRomanPSMT,12.960000038146973,No,Underlined
+2,2,Calibri,11.039999961853027,No,Normal
+2,4.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Objectives,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,1.  Facilitate Resume Building:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,It provides a resume builder to help users to create,TimesNewRomanPSMT,12.0,No,Underlined
+2,and customize their resumes for different job opportunities.,TimesNewRomanPSMT,12.0,No,Underlined
+2,2.  Referrals recommendation:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,It provides users a list of individuals who can provide,TimesNewRomanPSMT,12.0,No,Underlined
+2,"referral, according to their target company and job role.",TimesNewRomanPSMT,12.0,No,Underlined
+2,3.  Improve Success Rates:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,It uses recommendation algorithm to find suitable persons,TimesNewRomanPSMT,12.0,No,Underlined
+2,"to take referral from , increasing the chances of job application success.",TimesNewRomanPSMT,12.0,No,Underlined
+2,4. Interview Preparation:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,It includes a quiz or MCQ-based module to help users pre-,TimesNewRomanPSMT,12.0,No,Underlined
+2,pare for job interviews by testing their knowledge on common interview topics.,TimesNewRomanPSMT,12.0,No,Underlined
+2,5.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Skillset required to solve/address the problem,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Technology,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Skills,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Front-end,TimesNewRomanPSMT,12.0,No,Underlined
+2,Kotlin and XML,TimesNewRomanPSMT,12.0,No,Underlined
+2,Back-end,TimesNewRomanPSMT,12.0,No,Underlined
+2,"Node.js, Golang,  MongoDb",TimesNewRomanPSMT,12.0,No,Underlined
+2,Web-Scrapping,TimesNewRomanPSMT,12.0,No,Underlined
+2,"Web-Crawler,  Rest, Json",TimesNewRomanPSMT,12.0,No,Underlined
+2,Algorithm,TimesNewRomanPSMT,12.0,No,Underlined
+2,Python,TimesNewRomanPSMT,12.0,No,Underlined
+2,6.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Timeline to achieve the skillset,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Table: 01,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+2,7.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Description,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,•,SymbolMT,12.0,No,Normal
+2,Technology Stack,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,1.,TimesNewRomanPSMT,12.0,No,Underlined
+2,Frontend:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,using,TimesNewRomanPSMT,12.0,No,Underlined
+2,Kotlin,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,and,TimesNewRomanPSMT,12.0,No,Underlined
+2,XML,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,to create a smooth and user-friendly,TimesNewRomanPSMT,12.0,No,Underlined
+2,interface.,TimesNewRomanPSMT,12.0,No,Underlined
+2,2.,TimesNewRomanPSMT,12.0,No,Underlined
+2,Backend:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,The backend is built with,TimesNewRomanPSMT,12.0,No,Underlined
+2,Node.js,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,to handle communication,TimesNewRomanPSMT,12.0,No,Underlined
+2,between the app and server.,TimesNewRomanPSMT,12.0,No,Underlined
+2,MongoDB,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,is used as the database to store all,TimesNewRomanPSMT,12.0,No,Underlined
+2,the data.,TimesNewRomanPSMT,12.0,No,Underlined
+2,•,SymbolMT,12.0,No,Normal
+2,Architecture:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,MVC (Model-View-Controller),TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,architecture is used to develop this app.,TimesNewRomanPSMT,12.0,No,Underlined
+2,In this setup:,TimesNewRomanPSMT,12.0,No,Underlined
+2,•,SymbolMT,9.960000038146973,No,Normal
+2,Model:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,Manages the data and business logic.,TimesNewRomanPSMT,12.0,No,Underlined
+2,•,SymbolMT,9.960000038146973,No,Normal
+2,View:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,"Handles the UI, displaying information to the user and ensuring a",TimesNewRomanPSMT,12.0,No,Underlined
+2,good user experience.,TimesNewRomanPSMT,12.0,No,Underlined
+2,Start Date of Project Phase -I:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,"20, Jan’25",TimesNewRomanPSMT,12.0,No,Underlined
+2,End Date of Project Phase -I:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,"30, April’25",TimesNewRomanPSMT,12.0,No,Underlined
+2,Total No. of Weeks:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+2,15,TimesNewRomanPSMT,12.0,No,Underlined
+3,3,Calibri,11.039999961853027,No,Normal
+3,•,SymbolMT,9.960000038146973,No,Normal
+3,Controller:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,"Acts as the intermediary, processing user inputs, making API",TimesNewRomanPSMT,12.0,No,Underlined
+3,"calls, and updating the Model and View accordingly.",TimesNewRomanPSMT,12.0,No,Underlined
+3,•,SymbolMT,12.0,No,Normal
+3,Data Parsing and Recommendation Engine:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,The backend performs,TimesNewRomanPSMT,12.0,No,Underlined
+3,data parsing,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,by extracting information from multiple,TimesNewRomanPSMT,12.0,No,Underlined
+3,websites such as Peerlist. This data is then processed to build profiles of poten-,TimesNewRomanPSMT,12.0,No,Underlined
+3,tial job referees.,TimesNewRomanPSMT,12.0,No,Underlined
+3,The,TimesNewRomanPSMT,12.0,No,Underlined
+3,recommendation engine,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,"is the core feature of the app, employing algo-",TimesNewRomanPSMT,12.0,No,Underlined
+3,"rithms that consider multiple parameters, including:",TimesNewRomanPSMT,12.0,No,Underlined
+3,•,SymbolMT,12.0,No,Normal
+3,Alumni connections,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,: Recommends referees who share educational,TimesNewRomanPSMT,12.0,No,Underlined
+3,backgrounds with the user.,TimesNewRomanPSMT,12.0,No,Underlined
+3,•,SymbolMT,12.0,No,Normal
+3,Professional experience,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,: Weighs in the years of experience and exper-,TimesNewRomanPSMT,12.0,No,Underlined
+3,tise of potential referees.,TimesNewRomanPSMT,12.0,No,Underlined
+3,•,SymbolMT,12.0,No,Normal
+3,Position in the company,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,: Prioritizes referees holding senior or relevant,TimesNewRomanPSMT,12.0,No,Underlined
+3,positions.,TimesNewRomanPSMT,12.0,No,Underlined
+3,•,SymbolMT,12.0,No,Normal
+3,Skills match,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,: Suggests referees based on overlapping skillsets with the,TimesNewRomanPSMT,12.0,No,Underlined
+3,user's profile.,TimesNewRomanPSMT,12.0,No,Underlined
+3,•,SymbolMT,12.0,No,Normal
+3,Resume Building Feature:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,Allows users to create professional resumes directly within the application. Users,TimesNewRomanPSMT,12.0,No,Underlined
+3,"can input their details, select templates, and auto-populate fields based on existing",TimesNewRomanPSMT,12.0,No,Underlined
+3,data in their profile.,TimesNewRomanPSMT,12.0,No,Underlined
+3,8.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,Block schematic,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+3,Fig 8.1 : Block Schematic,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,4,Calibri,11.039999961853027,No,Normal
+4,9.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,Weekly milestones –,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,Date,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+4,Week,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+4,Objectives,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+4,20-1-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,1,TimesNewRomanPSMT,12.0,No,Underlined
+4,Project Phase Plan Submission,TimesNewRomanPSMT,12.0,No,Underlined
+4,27-1-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,2,TimesNewRomanPSMT,12.0,No,Underlined
+4,Initial Research and Requirement Gathering,TimesNewRomanPSMT,12.0,No,Underlined
+4,03-2-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,3,TimesNewRomanPSMT,12.0,No,Underlined
+4,Finalize System Design and Architecture,TimesNewRomanPSMT,12.0,No,Underlined
+4,10-2-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,4,TimesNewRomanPSMT,12.0,No,Underlined
+4,User Interface Development,TimesNewRomanPSMT,12.0,No,Underlined
+4,17-2-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,5,TimesNewRomanPSMT,12.0,No,Underlined
+4,Company & Employee’s Data parsing,TimesNewRomanPSMT,12.0,No,Underlined
+4,24-02-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,6,TimesNewRomanPSMT,12.0,No,Underlined
+4,Review-I,TimesNewRomanPSMT,12.0,No,Underlined
+4,3-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,7,TimesNewRomanPSMT,12.0,No,Underlined
+4,Review-I and Feedback Implementation,TimesNewRomanPSMT,12.0,No,Underlined
+4,10-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,8,TimesNewRomanPSMT,12.0,No,Underlined
+4,Company & Employee’s Data parsing,TimesNewRomanPSMT,12.0,No,Underlined
+4,17-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,9,TimesNewRomanPSMT,12.0,No,Underlined
+4,Company & Employee’s Data parsing,TimesNewRomanPSMT,12.0,No,Underlined
+4,24-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,10,TimesNewRomanPSMT,12.0,No,Underlined
+4,Recommendation Algorithm Building,TimesNewRomanPSMT,12.0,No,Underlined
+4,31-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,11,TimesNewRomanPSMT,12.0,No,Underlined
+4,Recommendation Algorithm Building,TimesNewRomanPSMT,12.0,No,Underlined
+4,7-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,12,TimesNewRomanPSMT,12.0,No,Underlined
+4,Review-II,TimesNewRomanPSMT,12.0,No,Underlined
+4,14-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,13,TimesNewRomanPSMT,12.0,No,Underlined
+4,Review-II and Feedback Implementation,TimesNewRomanPSMT,12.0,No,Underlined
+4,21-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,14,TimesNewRomanPSMT,12.0,No,Underlined
+4,Backend Integration & Report Submission,TimesNewRomanPSMT,12.0,No,Underlined
+4,28-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,15,TimesNewRomanPSMT,12.0,No,Underlined
+4,First draft return to students and submission of,TimesNewRomanPSMT,12.0,No,Underlined
+4,revised report,TimesNewRomanPSMT,12.0,No,Underlined
+4,Table: 02,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+4,10.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,Completed Milestones –,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,Date,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+4,Week,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+4,Objectives,TimesNewRomanPS-BoldMT,14.039999961853027,No,Underlined
+4,20-01-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,1,TimesNewRomanPSMT,12.0,No,Underlined
+4,Project Phase Plan Submission,TimesNewRomanPSMT,12.0,No,Underlined
+4,27-01-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,2,TimesNewRomanPSMT,12.0,No,Underlined
+4,Initial Research and Requirement Gathering,TimesNewRomanPSMT,12.0,No,Underlined
+4,03-02-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,3,TimesNewRomanPSMT,12.0,No,Underlined
+4,User Interface Development,TimesNewRomanPSMT,12.0,No,Underlined
+4,10-02-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,4,TimesNewRomanPSMT,12.0,No,Underlined
+4,User Interface Development,TimesNewRomanPSMT,12.0,No,Underlined
+4,17-02-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,5,TimesNewRomanPSMT,12.0,No,Underlined
+4,Company & Employee’s Data parsing,TimesNewRomanPSMT,12.0,No,Underlined
+4,24-02-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,6,TimesNewRomanPSMT,12.0,No,Underlined
+4,Company & Employee’s Data parsing,TimesNewRomanPSMT,12.0,No,Underlined
+4,Table: 03,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+4,11.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,Milestones to be Completed –,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+4,03-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,7,TimesNewRomanPSMT,12.0,No,Underlined
+4,Recommendation Algorithm Building,TimesNewRomanPSMT,12.0,No,Underlined
+4,10-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,8,TimesNewRomanPSMT,12.0,No,Underlined
+4,Recommendation Algorithm Building,TimesNewRomanPSMT,12.0,No,Underlined
+4,17-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+4,9,TimesNewRomanPSMT,12.0,No,Underlined
+4,Recommendation Algorithm Building,TimesNewRomanPSMT,12.0,No,Underlined
+5,5,Calibri,11.039999961853027,No,Normal
+5,24-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+5,10,TimesNewRomanPSMT,12.0,No,Underlined
+5,Integration with Application,TimesNewRomanPSMT,12.0,No,Underlined
+5,31-3-25,TimesNewRomanPSMT,12.0,No,Underlined
+5,11,TimesNewRomanPSMT,12.0,No,Underlined
+5,Submission of Revised Report,TimesNewRomanPSMT,12.0,No,Underlined
+5,07-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+5,12,TimesNewRomanPSMT,12.0,No,Underlined
+5,Review - II,TimesNewRomanPSMT,12.0,No,Underlined
+5,14-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+5,13,TimesNewRomanPSMT,12.0,No,Underlined
+5,Review-II and Feedback Implementation,TimesNewRomanPSMT,12.0,No,Underlined
+5,21-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+5,14,TimesNewRomanPSMT,12.0,No,Underlined
+5,Backend Integration,TimesNewRomanPSMT,12.0,No,Underlined
+5,28-4-25,TimesNewRomanPSMT,12.0,No,Underlined
+5,15,TimesNewRomanPSMT,12.0,No,Underlined
+5,Backend Integration & Report Submission,TimesNewRomanPSMT,12.0,No,Underlined
+5,Table: 04,TimesNewRomanPSMT,11.039999961853027,No,Underlined
+5,12.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Expected Challenges -,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,•,SymbolMT,12.0,No,Normal
+5,User Adoption and Engagement:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Ensuring that users adopt the platform and remain,TimesNewRomanPSMT,12.0,No,Underlined
+5,actively engaged can be challenging. The platform must offer clear value and an good,TimesNewRomanPSMT,12.0,No,Underlined
+5,user experience to attract and retain users.,TimesNewRomanPSMT,12.0,No,Underlined
+5,•,SymbolMT,12.0,No,Normal
+5,Integration Complexity:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,"Integrating various components such as frontend interfaces,",TimesNewRomanPSMT,12.0,No,Underlined
+5,"backend APIs, and third-party services may present technical challenges, requiring",TimesNewRomanPSMT,12.0,No,Underlined
+5,careful coordination and testing.,TimesNewRomanPSMT,12.0,No,Underlined
+5,•,SymbolMT,12.0,No,Normal
+5,Security and Data Privacy:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Safeguarding sensitive user information is critical.,TimesNewRomanPSMT,12.0,No,Underlined
+5,Implementing and maintaining high-security standards and compliance with data,TimesNewRomanPSMT,12.0,No,Underlined
+5,protection regulations will be a significant challenge.,TimesNewRomanPSMT,12.0,No,Underlined
+5,•,SymbolMT,12.0,No,Normal
+5,Scalability Issues:,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,"As the platform grows, it must handle increasing data and user",TimesNewRomanPSMT,12.0,No,Underlined
+5,interactions efficiently.,TimesNewRomanPSMT,12.0,No,Underlined
+5,13.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,References -,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,1.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Android Official Website,TimesNewRomanPS-ItalicMT,12.0,No,Italic
+5,. Available at:,TimesNewRomanPSMT,12.0,No,Underlined
+5,https://www.android.com/intl/en_in/,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,2.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Node.js Official Site,TimesNewRomanPS-ItalicMT,12.0,No,Italic
+5,. Available at:,TimesNewRomanPSMT,12.0,No,Underlined
+5,https://nodejs.org/,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,3.,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Stack Overflow Community,TimesNewRomanPS-ItalicMT,12.0,No,Italic
+5,. Available at:,TimesNewRomanPSMT,12.0,No,Underlined
+5,https://stackoverflow.com/,TimesNewRomanPS-BoldMT,12.0,No,Underlined
+5,Name and Signature of Supervisor,"Times,Bold",12.0,No,Underlined
+5,Name and Signature of Student,TimesNewRomanPS-BoldMT,12.0,No,Underlined
