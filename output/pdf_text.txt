@@ -1,0 +1,209 @@
+Page 1:  
+1 
+                                                                                    
+                                                                                                                                              Date: 28-02-2025 
+Review I  
+      Project Phase – III(CSL 801) 
+ 
+Student s Name Divyank Sharma  
+Harshit Kumar  
+Kanhaiya Kumar Gupta  Roll No.  21119  
+21121  
+21125  
+Batch No.  B10 Semester  VIII 
+Branch  Computer Science & 
+Engineering  Supervisor  Mrs. Nisha  
+ 
+1. Title of the Project – PowerRef  : Application for Recommending  Job Referrals  
+ 
+2. Introduction : 
+In the competitive job market, having the right referral can significantly boost a candidate's 
+chances of success. However, identifying the most impactful referral is often challenging. 
+This app addresses this issue  by recommending the strongest referral based on the user's 
+target company and job role. It uses web scraping and a recommendation algorithm to 
+analyze and suggest optimal referral opportunities.  
+ 
+In addition to this, the app offers tools like a resume builder, company search, and a 
+dashboard for managing and tracking referrals. Unlike general networking platforms, it 
+focuses specifically on enhancing job application outcomes through strategic referral s. 
+ 
+3. Problem Definition:  
+Job seekers often struggle to identify and leverage the most effective referrals for their job 
+applications. Platforms like LinkedIn  and Top mate  provide general networking tools but 
+lack specialized features that can prioritize referrals based on relevant criteria such as 
+alumni connections, experience, and position within a company. This concern  reduces a 
+candidate’s chances of standing out to recruiters and gaining an advantage in the hiring 
+process.  Additionally, these existing platforms do not offer integrated tools like a resume 
+builder , which forces users to rely on external solutions, adding unnecessary complexity 
+to their job search process . These platforms limit users' ability to fully optimize their job 
+applications and making the process less efficient by  not offering prioritized referral sug-
+gestions and a built -in resume -building feature . 
+ 
+So, this project aims to develop an application that guides user to  choose  the strongest 
+referral based on their target company and position  by using recommendation algorithm . 
+ 
+ 
+  
+ Indian Institute of Information Technology Una  
+Himachal Pradesh  
+An Institute of National Importance under MoE  
+Saloh, Una - 177209  
+Website: www.iiitu.ac.in  
+
+Page 2:  
+2 
+  
+4. Objectives  
+1.  Facilitate Resume Building:  It provides a resume builder to help users to create 
+and customize their resumes for different job opportunities.  
+ 
+2.  Referrals  recommendation : It provide s users a list of individuals who can provide 
+referral, according to their target company and job role.  
+ 
+3.  Improve Success Rates:  It uses recommendation algorithm  to find suitable persons 
+to take referral from , increas ing the chances of job application success.  
+ 
+4. Interview Preparation:  It includes a quiz or MCQ -based module to help users pre-
+pare for job interviews by testing their knowledge on common interview topics.  
+ 
+ 
+5. Skillset required to solve/address the problem  
+ 
+Technology  Skills  
+Front -end Kotlin and XML  
+Back -end Node.js, Golang,  MongoDb  
+Web -Scrapping  Web -Crawler,  Rest, Json  
+Algorithm  Python  
+ 
+ 
+6. Timeline to achieve the skillset  
+ 
+ 
+ 
+ 
+ 
+ 
+     Table: 01  
+ 
+7. Description  
+• Technology Stack  
+1.  Frontend:  using Kotlin  and XML  to create a smooth and user -friendly 
+interface.  
+2.  Backend:  The backend is built with Node.js  to handle communication 
+between the app and server . MongoDB  is used as the database to store all 
+the data.  
+ 
+• Architecture:   
+MVC (Model -View -Controller)  architecture  is used to develop this app.  
+In this setup:  
+• Model:  Manages the data  and business logic.  
+• View:  Handles the UI, displaying information to the user and ensuring a  
+good user experience.  Start Date of Project Phase -I:  20, Jan’25  
+End Date of Project Phase -I:  30, April ’25  
+Total No. of Weeks:  15 
+Page 3:  
+3 
+ • Controller:  Acts as the intermediary, processing user inputs, making API 
+calls, and updating the Model and View accordingly.  
+ 
+• Data  Parsing and Recommendation Engine:  
+The backend performs data parsing  by extracting information from multiple  
+websites such as Peerlist . This data is then processed to build profiles of poten-
+tial job referees.  
+The recommendation engine  is the core feature of the app, employing algo-
+rithms that consider multiple parameters, including:  
+• Alumni connections : Recommends referees who share educational 
+backgrounds with the user.  
+• Professional experience : Weighs in the years of experience and exper-
+tise of potential referees.  
+• Position in the company : Prioritizes referees holding senior or relevant 
+positions.  
+• Skills match : Suggests referees based on overlapping skillsets with the 
+user's profile.  
+• Resume Building Feature:   
+Allows users to create professional resumes directly within the application. Users 
+can input their details, select templates, and auto -populate fields based on existing 
+data in their profile.  
+ 
+8. Block schematic  
+ 
+ 
+Fig 8.1 : Block Schematic  
+ 
+ 
+ 
+
+Page 4:  
+4 
+ 9. Weekly milestones –  
+ 
+Date  Week    Objectives  
+20-1-25 1 Project Phase Plan Submission  
+27-1-25 2 Initial Research and Requirement Gathering  
+03-2-25 3 Finalize System Design and Architecture  
+10-2-25 4 User Interface Development  
+17-2-25 5 Company & Employee’s Data parsing  
+24-02-25 6 Review -I 
+3-3-25 7 Review -I and Feedback Implementation  
+10-3-25 8 Company & Employee’s Data parsing  
+17-3-25 9 Company & Employee’s Data parsing  
+24-3-25 10 Recommendation Algorithm Building  
+31-3-25 11 Recommendation Algorithm Building  
+7-3-25 12 Review -II 
+14-4-25 13 Review -II and Feedback Implementation  
+21-4-25 14 Backend Integration  & Report Submission  
+28-4-25 15 First draft ret urn to studen ts and submiss ion of 
+revised rep ort 
+Table: 02  
+ 
+ 
+10. Completed Milestones –  
+ 
+Date  Week    Objectives  
+20-01-25 1 Project Phase Plan Submission  
+27-01-25 2 Initial Research and Requirement Gathering  
+03-02-25 3 User Interface Development  
+10-02-25 4 User Interface Development  
+17-02-25 5 Company & Employee’s Data parsing  
+24-02-25 6 Company & Employee’s Data parsing  
+Table: 03  
+ 
+11. Milestones to be Completed –  
+ 
+03-3-25 7 Recommendation Algorithm Building  
+10-3-25 8 Recommendation Algorithm Building  
+17-3-25 9 Recommendation Algorithm Building  
+Page 5:  
+5 
+ 24-3-25 10 Integration with Application  
+31-3-25 11 Submission of Revised Report  
+07-4-25 12 Review - II 
+14-4-25 13 Review -II and Feedback Implementation  
+21-4-25 14 Backend Integration  
+28-4-25 15 Backend Integration & Report Submission  
+Table: 04  
+ 
+12. Expected Challenges -  
+• User Adoption and Engagement:  Ensuring that users adopt the platform and remain 
+actively engaged can be challenging. The platform must offer clear value and an good 
+user experience to attract and retain users.  
+• Integration Complexity:  Integrating various components such as frontend interfaces, 
+backend APIs, and third -party services  may present technical challenges, requiring 
+careful coordination and testing.  
+• Security and Data Privacy:  Safeguarding sensitive user information is critical. 
+Implementing and maintaining high -security standards and compliance with data 
+protection regulations will be a significant challenge.  
+• Scalability Issues:  As the platform grows, it must handle increasing data and user 
+interactions efficiently.  
+13. References -  
+1. Android Official Website . Available at:  https://www.android.com/intl/en_in/  
+2. Node.js Official Site . Available at:  https://nodejs.org/  
+3. Stack Overflow Community . Available at:  https://stackoverflow.com/  
+ 
+ 
+ 
+ 
+ 
+ 
+Name and Signature of Supervisor  Name and Signature of Student  
+ 

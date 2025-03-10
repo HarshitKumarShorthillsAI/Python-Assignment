@@ -1,0 +1,198 @@
+Page 1: 28/02/2025
+Page 1: 
+Batch B10 (21119,21121,21125)
+
+Page 1: Indian Institute of Information Technology Una
+Page 1: Topic - PowerRef
+Page 1: Review - 1 
+Project Phase - III (CSL801)
+Page 1: Presented by:
+
+        Divyank Sharma                      Harshit Kumar                      Kanhaiya Gupta
+               21119			   21121			 21125
+
+       	 Under Supervision of -  Ms. Nisha
+Page 1: 1
+Page 2: Outline 
+Page 2: 28/02/2025
+Page 2: 
+Batch 1 (21317,21319,21324)
+
+Page 2: <number>
+Page 2: INTRODUCTION
+Page 2: 
+Page 2: MOTIVATION
+Page 2: 
+Page 2: PROJECT OBJECTIVE
+Page 2: 
+Page 2: 01
+Page 2: 02
+Page 2: 03
+Page 2: 04
+Page 2: INNOVATION IN THE PROJECT
+Page 2: 
+Page 2: 05
+Page 2: CURRENTLY AVAILABLE
+ SOLUTIONS
+Page 2: 06
+Page 2: BLOCK SCHEMATIC
+Page 2: 
+Page 2: 
+Page 2: 07
+Page 2: WORK PROGRESS
+Page 2: 
+Page 3: 28/02/2025
+
+Page 3: 
+Batch 1 (21317,21319,21324)
+
+Page 3: <number>
+Page 3:  INTRODUCTION
+Page 3: 01
+Page 3: 
+Page 4:  1.  INTRODUCTION
+Page 4: 10/03/2025
+Page 4: 
+Batch 1 (21317,21319,21324)
+
+Page 4: <number>
+Page 4: 
+
+Page 4: Android App to improve job application success with personalized referral suggestions.
+Uses web scraping and algorithms to recommend the most effective referrals.
+Focuses on strategic referrals, offering a unique approach.
+Includes tools such as a resume builder, company search, and referral.
+Interview Preparation via MCQs
+Page 5: 10/03/2025
+Page 5: 
+Batch 1 (21317,21319,21324)
+
+Page 5: <number>
+Page 5: MOTIVATION
+Page 5: 
+Page 5: 02
+Page 6:  2.  MOTIVATION
+Page 6: 10/03/2025
+Page 6: 
+Batch 1 (21317,21319,21324)
+
+Page 6: <number>
+Page 6: 
+Help job seekers stand out in a competitive job market.
+Simplify the process of finding the most impactful referrals.
+Increase the chances of getting noticed by recruiters.
+Page 7: 10/03/2025
+Page 7: 
+Batch 1 (21317,21319,21324)
+
+Page 7: <number>
+Page 7: PROJECT OBJECTIVE
+Page 7: 
+Page 7: 03
+Page 8:  3.  PROJECT OBJECTIVE
+Page 8: 10/03/2025
+Page 8: 
+Batch 1 (21317,21319,21324)
+
+Page 8: <number>
+Page 8: 
+Provide personalized referral suggestions .
+Increase job success rates using recommendation algorithms.
+Ensure secure management and storage of user data.
+Enable LinkedIn sign-in to simplify user onboarding.
+Offer a dashboard for managing referral activities.
+Page 9: 10/03/2025
+Page 9: 
+Batch B10(21119,21121,21125)
+
+Page 9: <number>
+Page 9: INNOVATION IN THE PROJECT
+Page 9: 
+Page 9: 04
+Page 10:  4.  INNOVATION IN THE PROJECT
+Page 10: 10/03/2025
+Page 10: 
+Batch B10(21119,21121,21125)
+
+Page 10: 10
+Page 10: 
+Leverages web scraping to gather data for accurate referral suggestions.
+Integrates LinkedIn sign-in for automatic data import.
+Combines multiple job-seeking tools (referral manager, resume builder, company search, interview preparation) in one app.
+Focuses specifically on strategic referrals, setting it apart from generic networking platforms.
+Page 11: 10/03/2025
+Page 11: 
+Batch B10(21119,21121,21125)
+
+Page 11: 10
+Page 11:  CURRENTLY AVAILABLE SOLUTIONS
+Page 11: 
+Page 11: 05
+Page 12:  5. CURRENTLY AVAILABLE SOLUTIONS
+Page 12: 10/03/2025
+Page 12: 
+Batch B10(21119,21121,21125)
+
+Page 12: 12
+Page 13: 10/03/2025
+Page 13: 
+Batch B10(21119,21121,21125)
+
+Page 13: 12
+Page 13:  BLOCK SCHEMATIC
+Page 13: 
+Page 13: 06
+Page 14: 10/03/2025
+Page 14: 
+Batch B10(21119,21121,21125)
+
+Page 14: 12
+Page 14:   WORK PROGRESS 
+Page 14: 
+Page 14: 06
+Page 15:  6.  WORK PROGRESS
+Page 15: 10/03/2025
+Page 15: 
+Batch B10(21119,21121,21125)
+
+Page 15: 15
+Page 15: Frontend Development: 70% completed.
+
+Backend Development: Initiated and currently in progress.
+
+Data Scraping: Successfully completed from the Peerlist website.
+
+Algorithm Optimization: Implementation of RAG for optimized referral recommendations has begun.
+Page 16:  7. Demonstration
+Page 16: 10/03/2025
+Page 16: 
+Batch B10(21119,21121,21125)
+
+Page 16: 16
+Page 17: 7. Demonstration
+Page 17: IIITU-HP-India-<Event Identifier> 
+Page 17: 17
+Page 17: 10/03/2025
+Page 18: Demonstration
+Page 18: IIITU-HP-India-<Event Identifier> 
+Page 18: 18
+Page 18: 10/03/2025
+Page 19: Demonstration
+Page 19: IIITU-HP-India-<Event Identifier> 
+Page 19: 19
+Page 19: 10/03/2025
+Page 20:   REFRENCES
+Page 20: 10/03/2025
+Page 20: Batch B10(21119,21121,21125)
+
+Page 20: 20
+Page 20: 
+ Android Developer Documentation. URL: https://developer.android.com/
+ Node.js. URL: https://nodejs.org/
+Stack Overflow. URL: https://stackoverflow.com/
+Figma. URL: Figma
+Page 21: 10/03/2025
+Page 21: Batch B10(21119,21121,21125)
+
+Page 21: <number>
+Page 21: Thanks!

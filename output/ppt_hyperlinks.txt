@@ -1,0 +1,5 @@
+Page 20:   -> https://developer.android.com/?gclid=CjwKCAjw3oqoBhAjEiwA_UaLtpd7E8o4wjU4btwrMsyq0-mB1QPbCXh18vtbhRRIznBxJ08fcoPHbxoCFlUQAvD_BwE&gclsrc=aw.ds
+Page 20: https://developer.android.com -> https://developer.android.com/?gclid=CjwKCAjw3oqoBhAjEiwA_UaLtpd7E8o4wjU4btwrMsyq0-mB1QPbCXh18vtbhRRIznBxJ08fcoPHbxoCFlUQAvD_BwE&gclsrc=aw.ds
+Page 20: https://nodejs.org/ -> https://nodejs.org/
+Page 20: https://stackoverflow.com/ -> https://stackoverflow.com/
+Page 20: Figma -> https://www.figma.com/

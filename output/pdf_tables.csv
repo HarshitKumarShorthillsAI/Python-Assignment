@@ -1,0 +1,179 @@
+Page 1 - Size: 11x2
+Indian Institute of Information Technology Una
+"Himachal Pradesh 
+An Institute of National Importance under MoE"
+"Saloh, Una - 177209 
+Website: www.iiitu.ac.in"
+Date: 28-02-2025
+"Review I 
+      Project Phase – III(CSL801)"
+"Students Name 
+Divyank Sharma 
+Harshit Kumar 
+Kanhaiya Kumar Gupta","Roll No. 
+21119 
+21121 
+21125 
+Batch No. 
+B10 
+Semester 
+VIII"
+"Branch 
+Computer Science & 
+Engineering","Supervisor 
+Mrs. Nisha"
+1. Title of the Project – PowerRef : Application for Recommending Job Referrals
+2. Introduction :
+3. Problem Definition:
+1
+
+Page 2 - Size: 9x2
+4. Objectives
+"Start Date of Project Phase -I:  20, Jan’25"
+"Table: 01 
+ 
+7. Description","End Date of Project Phase -I:  
+30, April’25"
+"Total No. of Weeks:  
+15"
+• Technology Stack
+"MVC (Model-View-Controller) architecture is used to develop this app. 
+In this setup:"
+"• 
+Model: Manages the data and business logic."
+"• 
+View: Handles the UI, displaying information to the user and ensuring a 
+good user experience."
+2
+
+Page 3 - Size: 7x1
+• Data Parsing and Recommendation Engine:
+• Alumni connections: Recommends referees who share educational
+"backgrounds with the user. 
+• Professional experience: Weighs in the years of experience and exper-"
+"positions. 
+• Skills match: Suggests referees based on overlapping skillsets with the"
+user's profile.
+Fig 8.1 : Block Schematic
+3
+
+Page 4 - Size: 31x1
+9. Weekly milestones –
+"Date 
+Week 
+ 
+ Objectives"
+"20-1-25 
+1 
+Project Phase Plan Submission"
+"27-1-25 
+2 
+Initial Research and Requirement Gathering"
+"03-2-25 
+3 
+Finalize System Design and Architecture"
+"10-2-25 
+4 
+User Interface Development"
+"17-2-25 
+5 
+Company & Employee’s Data parsing"
+"24-02-25 
+6 
+Review-I"
+"3-3-25 
+7 
+Review-I and Feedback Implementation"
+"10-3-25 
+8 
+Company & Employee’s Data parsing"
+"17-3-25 
+9 
+Company & Employee’s Data parsing"
+"24-3-25 
+10 
+Recommendation Algorithm Building"
+"31-3-25 
+11 
+Recommendation Algorithm Building"
+"7-3-25 
+12 
+Review-II"
+"14-4-25 
+13 
+Review-II and Feedback Implementation"
+"21-4-25 
+14 
+Backend Integration & Report Submission"
+"28-4-25 
+15 
+First draft return to students and submission of 
+revised report"
+"Table: 02 
+ 
+ 
+10. Completed Milestones –"
+"Date 
+Week 
+ 
+ Objectives"
+"20-01-25 
+1 
+Project Phase Plan Submission"
+"27-01-25 
+2 
+Initial Research and Requirement Gathering"
+"03-02-25 
+3 
+User Interface Development"
+"10-02-25 
+4 
+User Interface Development"
+"17-02-25 
+5 
+Company & Employee’s Data parsing"
+"24-02-25 
+6 
+Company & Employee’s Data parsing"
+Table: 03
+11. Milestones to be Completed –
+"03-3-25 
+7 
+Recommendation Algorithm Building"
+"10-3-25 
+8 
+Recommendation Algorithm Building"
+"17-3-25 
+9 
+Recommendation Algorithm Building"
+4
+
+Page 5 - Size: 12x1
+"24-3-25 
+10 
+Integration with Application"
+"31-3-25 
+11 
+Submission of Revised Report"
+"07-4-25 
+12 
+Review - II"
+"14-4-25 
+13 
+Review-II and Feedback Implementation"
+"21-4-25 
+14 
+Backend Integration"
+"28-4-25 
+15 
+Backend Integration & Report Submission"
+"Table: 04 
+ 
+12. Expected Challenges -"
+• User Adoption and Engagement: Ensuring that users adopt the platform and remain
+interactions efficiently.
+13. References -
+"Name and Signature of Supervisor  
+Name and Signature of Student"
+5
+
