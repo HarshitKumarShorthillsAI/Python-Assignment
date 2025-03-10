@@ -1,2 +1,2 @@
-Page 2: output/docx_images/image_13.png (Format: png, Resolution: 1356x983)
-Page 2: output/docx_images/image_14.png (Format: png, Resolution: 1356x983)
+Page 2: output/docx_images/image_7.png (Format: png, Resolution: 1356x983)
+Page 2: output/docx_images/image_8.png (Format: png, Resolution: 1356x983)

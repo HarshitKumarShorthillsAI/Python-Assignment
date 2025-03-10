@@ -1,5 +1,4 @@
 Sample to check
-www.twitter.com
 varun
 Category
 Example

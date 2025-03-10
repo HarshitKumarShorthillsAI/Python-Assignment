@@ -1,6 +1,5 @@
-Page 5: www.twitter.com -> https://www.twitter.com
-Page 100: Table 1: Twitter -> https://twitter.com/
-Page 100: Table 1: YouTube -> https://www.youtube.com/
-Page 100: Table 1: TechCrunch -> https://techcrunch.com/
-Page 100: Table 1: Amazon -> https://www.amazon.com/
-Page 100: Table 1: GitHub -> https://github.com/
+Page 1: Table 1: Twitter -> https://twitter.com/
+Page 1: Table 1: YouTube -> https://www.youtube.com/
+Page 1: Table 1: TechCrunch -> https://techcrunch.com/
+Page 1: Table 1: Amazon -> https://www.amazon.com/
+Page 1: Table 1: GitHub -> https://github.com/

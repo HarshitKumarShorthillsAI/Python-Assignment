@@ -1,25 +1,24 @@
 Page,Text,Font Name,Font Size,Is Heading,Text Type
-1,Sample to check,Default,279400,No,Normal
-1,www.twitter.com,Default,0.0,No,Normal
-1,varun,Default,279400,No,Normal
-1,Category,Default,0.0,No,Table
-1,Example,Default,0.0,No,Table
-1,Link,Default,0.0,No,Table
-1,Search Engine,Default,0.0,No,Table
-1,Google,Default,0.0,No,Table
-1,www,Default,0.0,No,Table
-1,Social Media,Default,0.0,No,Table
-1,Twitter,Default,0.0,No,Table
-1,Twitter,Default,0.0,No,Table
-1,Video Platform,Default,0.0,No,Table
-1,YouTube,Default,0.0,No,Table
-1,YouTube,Default,0.0,No,Table
-1,Tech News,Default,0.0,No,Table
-1,TechCrunch,Default,0.0,No,Table
-1,TechCrunch,Default,0.0,No,Table
-1,Shopping,Default,0.0,No,Table
-1,Amazon,Default,0.0,No,Table
-1,Amazon,Default,0.0,No,Table
-1,Programming,Default,0.0,No,Table
-1,GitHub,Default,0.0,No,Table
-1,GitHub,Default,0.0,No,Table
+1,Sample to check,Default,22.0,Yes,Possible Heading
+1,varun,Default,22.0,Yes,Possible Heading
+1,Category,Default,12.0,Yes,Table Header
+1,Example,Default,12.0,Yes,Table Header
+1,Link,Default,12.0,Yes,Table Header
+1,Search Engine,Default,12.0,No,Table Cell
+1,Google,Default,12.0,No,Table Cell
+1,www,Default,12.0,No,Table Cell
+1,Social Media,Default,12.0,No,Table Cell
+1,Twitter,Default,12.0,No,Table Cell
+1,Twitter,Default,12.0,No,Table Cell
+1,Video Platform,Default,12.0,No,Table Cell
+1,YouTube,Default,12.0,No,Table Cell
+1,YouTube,Default,12.0,No,Table Cell
+1,Tech News,Default,12.0,No,Table Cell
+1,TechCrunch,Default,12.0,No,Table Cell
+1,TechCrunch,Default,12.0,No,Table Cell
+1,Shopping,Default,12.0,No,Table Cell
+1,Amazon,Default,12.0,No,Table Cell
+1,Amazon,Default,12.0,No,Table Cell
+1,Programming,Default,12.0,No,Table Cell
+1,GitHub,Default,12.0,No,Table Cell
+1,GitHub,Default,12.0,No,Table Cell

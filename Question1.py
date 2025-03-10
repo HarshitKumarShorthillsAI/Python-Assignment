@@ -701,6 +701,9 @@ class DOCXDataExtractor(DataExtractor):
         extracted_text = []
         page_num = 1  # DOCX doesn't have built-in page numbers, so we estimate
         
+        # Calculate average font size for reference
+        avg_font_size = self._get_average_font_size()
+        
         # Process paragraphs
         for para_index, para in enumerate(self.doc.paragraphs):
             if not para.text.strip():
@@ -720,11 +723,31 @@ class DOCXDataExtractor(DataExtractor):
                     if hasattr(run, "font") and run.font:
                         if hasattr(run.font, "name") and run.font.name:
                             font_name = run.font.name
+                        
+                        # Properly extract font size
                         if hasattr(run.font, "size") and run.font.size:
-                            font_size = run.font.size
-                except Exception:
-                    pass
+                            # Convert Pt object to float if needed
+                            if hasattr(run.font.size, "pt"):
+                                font_size = run.font.size.pt
+                            else:
+                                try:
+                                    # Try direct conversion
+                                    font_size = float(run.font.size)
+                                    # DOCX sometimes stores size in half-points
+                                    if font_size > 100:  # Likely in twips (1/20 of a point)
+                                        font_size = font_size / 20
+                                except (TypeError, ValueError):
+                                    # Fall back to style-based size estimation
+                                    style_font_size = self._get_font_size_from_style(para.style)
+                                    if style_font_size > 0:
+                                        font_size = style_font_size
+                except Exception as e:
+                    print(f"Warning: Error getting font info: {e}")
             
+            # If we still don't have font size, estimate from style
+            if font_size == 0.0:
+                font_size = self._get_font_size_from_style(para.style)
+                
             # Determine text type based on style
             if is_heading:
                 text_type = para.style.name  # e.g., "Heading 1"
@@ -734,6 +757,13 @@ class DOCXDataExtractor(DataExtractor):
             # Estimate page number (rough approximation)
             if para_index > 0 and para_index % 15 == 0:  # Assume ~15 paragraphs per page
                 page_num += 1
+            
+            # Determine if this is a heading based on context if not already set
+            if not is_heading:
+                # Check if font size is significantly larger than average
+                if font_size > (avg_font_size * 1.2):
+                    is_heading = True
+                    text_type = "Possible Heading"
             
             extracted_text.append({
                 'page': page_num,
@@ -753,45 +783,161 @@ class DOCXDataExtractor(DataExtractor):
                         if not para.text.strip():
                             continue
                         
-                        is_heading = False  # Table cells usually aren't headings
+                        # Similar font extraction for table cells
+                        font_name = "Default"
+                        font_size = 0.0
+                        text_type = "Table Cell"
+                        
+                        # Try to get cell style first
+                        cell_style = None
+                        if hasattr(cell, "paragraphs") and cell.paragraphs:
+                            if hasattr(cell.paragraphs[0], "style"):
+                                cell_style = cell.paragraphs[0].style
+                        
+                        # Extract font info from all runs in the paragraph, not just the first
+                        if para.runs:
+                            for run in para.runs:
+                                try:
+                                    if hasattr(run, "font") and run.font:
+                                        # Get font name if we don't have one yet
+                                        if font_name == "Default" and hasattr(run.font, "name") and run.font.name:
+                                            font_name = run.font.name
+                                        
+                                        # Try to get font size if we don't have a valid one yet
+                                        if font_size == 0.0 and hasattr(run.font, "size") and run.font.size:
+                                            if hasattr(run.font.size, "pt"):
+                                                font_size = run.font.size.pt
+                                                break  # Once we have a valid size, we can stop
+                                            else:
+                                                try:
+                                                    size = float(run.font.size)
+                                                    # Convert from twips if necessary
+                                                    if size > 100:  # Likely in twips
+                                                        size = size / 20
+                                                    font_size = size
+                                                    break  # Once we have a valid size, we can stop
+                                                except (TypeError, ValueError):
+                                                    continue
+                                except Exception:
+                                    continue
+                        
+                        # If we still don't have font size, try to get it from paragraph style
+                        if font_size == 0.0 and hasattr(para, "style") and para.style:
+                            font_size = self._get_font_size_from_style(para.style)
+                        
+                        # If still no font size, try cell style
+                        if font_size == 0.0 and cell_style:
+                            font_size = self._get_font_size_from_style(cell_style)
+                        
+                        # Last resort: use average document font size or default
+                        if font_size == 0.0:
+                            font_size = avg_font_size
                         
                         # Get cell position info for metadata
                         position_info = f"Table {table_index+1}, Row {row_index+1}, Cell {cell_index+1}"
                         
+                        # First row might be headers
+                        is_heading = row_index == 0
+                        if is_heading:
+                            text_type = "Table Header"
+                        
+                        # Store the original paragraph style name
+                        para_style_name = para.style.name if hasattr(para, "style") and para.style and hasattr(para.style, "name") else "Default"
+                        
                         extracted_text.append({
                             'page': page_num,  # Use the current page estimate
                             'text': para.text.strip(),
-                            'font_name': "Default",  # Hard to get font info from table cells
-                            'font_size': 0.0,
+                            'font_name': font_name,
+                            'font_size': font_size,
                             'is_heading': is_heading,
-                            'text_type': "Table",
-                            'style': position_info
+                            'text_type': text_type,
+                            'style': para_style_name  # Use the actual paragraph style name instead of position_info
                         })
         
         return extracted_text
 
+    def _get_average_font_size(self):
+        """Calculate the average font size in the document"""
+        sizes = []
+        for para in self.doc.paragraphs:
+            for run in para.runs:
+                try:
+                    if hasattr(run.font, "size") and run.font.size:
+                        if hasattr(run.font.size, "pt"):
+                            sizes.append(run.font.size.pt)
+                        else:
+                            try:
+                                size = float(run.font.size)
+                                # Convert from twips if necessary
+                                if size > 100:  # Likely in twips
+                                    size = size / 20
+                                sizes.append(size)
+                            except (TypeError, ValueError):
+                                pass
+                except Exception:
+                    pass
+        
+        # Also check tables
+        for table in self.doc.tables:
+            for row in table.rows:
+                for cell in row.cells:
+                    for para in cell.paragraphs:
+                        for run in para.runs:
+                            try:
+                                if hasattr(run.font, "size") and run.font.size:
+                                    if hasattr(run.font.size, "pt"):
+                                        sizes.append(run.font.size.pt)
+                                    else:
+                                        try:
+                                            size = float(run.font.size)
+                                            if size > 100:  # Likely in twips
+                                                size = size / 20
+                                            sizes.append(size)
+                                        except (TypeError, ValueError):
+                                            pass
+                            except Exception:
+                                pass
+        
+        return sum(sizes) / len(sizes) if sizes else 12.0  # Default to 12pt if no valid sizes found
+
+    def _get_font_size_from_style(self, style):
+        """Estimate font size based on style name"""
+        if not style or not style.name:
+            return 12.0  # Default size
+        
+        # Common heading sizes
+        if style.name == "Heading 1":
+            return 16.0
+        elif style.name == "Heading 2":
+            return 14.0
+        elif style.name == "Heading 3":
+            return 13.0
+        elif style.name == "Heading 4":
+            return 12.0
+        elif style.name == "Title":
+            return 18.0
+        elif style.name == "Subtitle":
+            return 16.0
+        elif "Caption" in style.name:
+            return 10.0
+        elif "Footer" in style.name or "Header" in style.name:
+            return 10.0
+        else:
+            return 12.0  # Default body text size
     def extract_hyperlinks(self):
         hyperlinks = []
         for para_index, para in enumerate(self.doc.paragraphs):
-            # Reference: https://python-docx.readthedocs.io/en/latest/dev/analysis/features/text/hyperlink.html
-            # DOCX hyperlinks are complex to extract directly
-            
-            # Method 1: Using relationship parts
+            # Extracting hyperlinks from paragraphs
             rels = para._element.xpath('.//w:hyperlink')
             for rel in rels:
-                # Get relationship ID
                 rel_id = rel.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
                 if rel_id and rel_id in para.part.rels:
-                    # Get the relationship target (URL)
                     url = para.part.rels[rel_id].target_ref
-                    
-                    # Try to get the text of the hyperlink
                     text_elements = rel.xpath('.//w:t')
                     text = ''.join([t.text for t in text_elements if t.text])
-                    
                     hyperlinks.append((para_index + 1, text or "Unnamed link", url))
         
-        # Also check tables for hyperlinks
+        # Check tables as well
         for table_index, table in enumerate(self.doc.tables):
             for row in table.rows:
                 for cell in row.cells:
@@ -803,7 +949,7 @@ class DOCXDataExtractor(DataExtractor):
                                 url = para.part.rels[rel_id].target_ref
                                 text_elements = rel.xpath('.//w:t')
                                 text = ''.join([t.text for t in text_elements if t.text])
-                                hyperlinks.append((table_index + 100, f"Table {table_index+1}: {text or 'Unnamed link'}", url))
+                                hyperlinks.append((table_index + 1, f"Table {table_index + 1}: {text or 'Unnamed link'}", url))
         
         return hyperlinks
 
